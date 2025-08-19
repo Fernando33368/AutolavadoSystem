@@ -1,4 +1,4 @@
-# 🚗 Sistema de Gestión de Autolavado
+# Sistema de Gestión de Autolavado
 
 Este sistema está diseñado para gestionar de manera eficiente un *autolavado*, permitiendo el control de clientes, vehículos, servicios, usuarios del sistema y ventas de servicios realizadas.
 
@@ -6,7 +6,7 @@ La base de datos se llama *db_autolavado* y contiene las siguientes tablas princ
 
 ---
 
-## 📑 Tablas y Funcionalidad
+## Tablas y Funcionalidad
 
 ### 1. *tbi_roles*
 Almacena los diferentes *roles* de usuarios dentro del sistema.
@@ -67,7 +67,7 @@ Historial de *ventas de servicios* realizadas.
 
 ---
 
-## 🔗 Relaciones entre Tablas
+## Relaciones entre Tablas
 
 - *Roles (tbi_roles)* → usados por *Usuarios (tbc_usuarios)*.
 - *Clientes (tbi_clientes)* → pueden registrar varios *Vehículos (tbc_vehiculo)*.
@@ -76,7 +76,7 @@ Historial de *ventas de servicios* realizadas.
 
 ---
 
-## ⚙️ Funcionalidades del Sistema
+## Funcionalidades del Sistema
 
 1. *Gestión de clientes*: Registro, actualización y control de sus datos.
 2. *Gestión de vehículos*: Asociar vehículos a clientes.
@@ -87,7 +87,7 @@ Historial de *ventas de servicios* realizadas.
 
 ---
 
-## 📊 Flujo Básico de Uso
+## Flujo Básico de Uso
 
 1. Un *cliente* llega al autolavado → Se registra (si no está registrado).
 2. El cliente *registra su vehículo* en el sistema.
@@ -99,7 +99,7 @@ Historial de *ventas de servicios* realizadas.
 
 ---
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 - *Base de datos*: MySQL (InnoDB, UTF8MB4).
 - *Modelo de datos*: Relacional con claves foráneas.
